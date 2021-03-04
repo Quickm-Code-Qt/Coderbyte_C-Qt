@@ -10,3 +10,4 @@ public:
     TestChallenges(QObject *parent);
     ~TestChallenges();
 };
+ 

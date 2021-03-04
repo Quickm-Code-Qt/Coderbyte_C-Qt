@@ -24,4 +24,4 @@ Simple Symbols                      StringSymbols
 String Periods                      StringPeriod
 Time Convert        	            TimeConverter
 Username Validation                 UsernameValidation
-Vowel Square				        SquareVowels
+Vowel Square				        SquareVowels 

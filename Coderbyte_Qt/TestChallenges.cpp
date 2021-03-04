@@ -7,4 +7,4 @@ TestChallenges::TestChallenges(QObject *parent)
 
 TestChallenges::~TestChallenges()
 {
-}
+} 
