@@ -1,0 +1,14 @@
+The list of challenges were originally coded in C++.  Challenge solution with 
+dates have been coded in Qt and exist in this solution.
+
+Challenge:                  Qt Date:        Class:
+Consecutive                                 ConsecutiveNumbers
+K Unique Chars                              StringUniqueSubstring
+Number Encoding                             NumberEncoder
+Preorder Traversal                          TreeGraphs
+Prime Mover                                 PrimeNumber
+Run Length                                  StringCompression
+String Reduction                            StringReducer
+Symmetric Tree                              TreeGraphs
+Tree Constructor                            TreeGraphs
+Minimum Window Substring                    StringMinimumWindow

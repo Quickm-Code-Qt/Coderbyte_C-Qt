@@ -1,0 +1,27 @@
+The list of challenges were originally coded in C++11.  Challenge solution with 
+dates have been coded in Qt and exist in this solution.
+
+Challenge:          Qt Date:        Class
+Alphabet Soup                       AlphabetSorter
+ArithGeo                            MathSequence
+Check Numbers                       NumberCheck
+Fibonacci Checker                   MathFibonacci
+Find Intersection                   StringIntersection
+First Factorial				        Factorial
+First Reverse				        StringReverse
+Letter Capitalize			        ChangeLetter
+Letter Changes				        ChangeLetter
+Longest Word                        StringWords
+Moving Median                       MedianMovement
+Other Products				        MathProduct
+Palindrome                          PalindromeChecker
+Power of 2					        ExponentTwo
+Product Digits				        MathProduct
+Question Marks                      QuestionMarkSum
+Remove Brackets                     StringBrackets
+Simple Adding                       MathSummation
+Simple Symbols                      StringSymbols
+String Periods                      StringPeriod
+Time Convert        	            TimeConverter
+Username Validation                 UsernameValidation
+Vowel Square				        SquareVowels

@@ -22,5 +22,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TestChallenges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="TestChallenges.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ChallengesList_1Easy.txt" />
+    <Text Include="ChallengesList_2Medium.txt" />
+    <Text Include="ChallengesList_3Hard.txt" />
   </ItemGroup>
 </Project>
