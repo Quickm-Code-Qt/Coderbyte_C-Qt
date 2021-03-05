@@ -9,6 +9,7 @@
 #include "StringIntersection.h"
 #include "MathFactorial.h"
 #include "StringReverse.h"
+#include "StringLetterChanges.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -175,6 +176,31 @@ void TestChallenges::Test_StringReverse()
     qInfo() << "First Reverse:";
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << reverse.FirstReverse(text);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_LetterChanges()
+{
+    StringLetterChanges  letterChanger;
+
+    QString text = "coderbyte";
+
+    qInfo() << "Letter Changes:";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << letterChanger.LetterChanges(text);
+    qInfo() << " ";
+}
+
+void TestChallenges::Test_LetterCapitalize()
+{
+    StringLetterChanges  letterChanger;
+
+    QString text = "the fox is brown in color and very sly.";
+
+    qInfo() << "Letter Changes:";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << letterChanger.LetterCapitalize(text);
     qInfo() << " ";
 
 }

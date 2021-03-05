@@ -92,6 +92,7 @@
     <ClCompile Include="MathSequence.cpp" />
     <ClCompile Include="NumberCheck.cpp" />
     <ClCompile Include="StringIntersection.cpp" />
+    <ClCompile Include="StringLetterChanges.cpp" />
     <ClCompile Include="StringReverse.cpp" />
     <ClCompile Include="TestChallenges.cpp" />
   </ItemGroup>
@@ -107,6 +108,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="StringLetterChanges.h" />
     <QtMoc Include="StringReverse.h" />
     <QtMoc Include="MathFactorial.h" />
     <QtMoc Include="StringIntersection.h" />

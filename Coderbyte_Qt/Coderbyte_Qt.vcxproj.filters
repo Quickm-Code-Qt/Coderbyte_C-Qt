@@ -46,6 +46,9 @@
     <ClCompile Include="StringReverse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringLetterChanges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -67,6 +70,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringReverse.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="StringLetterChanges.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

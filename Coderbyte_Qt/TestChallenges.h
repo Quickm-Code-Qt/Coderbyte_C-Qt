@@ -17,6 +17,8 @@ public:
     void Test_FindIntersection();
     void Test_FirstFactorial();
     void Test_StringReverse();
+    void Test_LetterChanges();
+    void Test_LetterCapitalize();
 
     protected:
     void Test_PrintArray(int* arr, int length);
