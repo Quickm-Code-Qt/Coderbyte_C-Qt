@@ -4,7 +4,7 @@ dates have been coded in Qt and exist in this solution.
 Challenge:          Qt Date:        Class
 Alphabet Soup       03/04/2021      AlphabetSorter
 ArithGeo            03/04/2021      MathSequence
-Check Numbers                       NumberCheck
+Check Numbers       03/04/2021      NumberCheck
 Fibonacci Checker                   MathFibonacci
 Find Intersection                   StringIntersection
 First Factorial				        Factorial

@@ -31,12 +31,18 @@
     <ClCompile Include="MathSequence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NumberCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="AlphabetSorter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="NumberCheck.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

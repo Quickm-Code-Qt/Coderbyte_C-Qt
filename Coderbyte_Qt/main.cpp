@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     // Easy Challenges
     tc.Test_AlphabetSoup();
     tc.Test_ArithGeo();
+    tc.Test_NumberCheck();
 
     // Medium Challenges
 
