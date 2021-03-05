@@ -13,6 +13,7 @@ public:
     void Test_AlphabetSoup();
     void Test_ArithGeo();
     void Test_NumberCheck();
+    void Test_Fibonacci();
 
     protected:
     void Test_PrintArray(int* arr, int length);

@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
     tc.Test_AlphabetSoup();
     tc.Test_ArithGeo();
     tc.Test_NumberCheck();
+    tc.Test_Fibonacci();
 
     // Medium Challenges
 

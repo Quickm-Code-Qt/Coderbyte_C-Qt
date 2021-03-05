@@ -5,6 +5,8 @@
 #include "AlphabetSorter.h"
 #include "MathSequence.h"
 #include "NumberCheck.h"
+#include "MathFibonacci.h"
+
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -20,7 +22,7 @@ void TestChallenges::Test_PrintArray(int* arr, int length)
     std::vector<int>    stdContainer(arr, arr + length);
     QVector<int>        container = QVector<int>::fromStdVector(stdContainer);
 
-    QDebug log = qInfo();
+    QDebug log = qInfo().noquote();
     log << "Array: " << "[";
     QString str;
 
@@ -41,8 +43,8 @@ void TestChallenges::Test_AlphabetSoup()
     AlphabetSorter alpha;
 
     qInfo() << "Alphabet Soup:";
-    qInfo() << "Input:  " << text;
-    qInfo() << "Output: " << alpha.AlphabetSoup(text);
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << alpha.AlphabetSoup(text);
     qInfo() << " ";
 
 }
@@ -55,7 +57,7 @@ void TestChallenges::Test_ArithGeo()
 
     qInfo() << "ArithGeo: ";
     Test_PrintArray(arr, length);
-    qInfo() << "Result: " << sequence.ArithGeo(arr, length);
+    qInfo().noquote() << "Result: " << sequence.ArithGeo(arr, length);
     qInfo() << " ";
 
 }
@@ -69,18 +71,40 @@ void TestChallenges::Test_NumberCheck()
 
     qInfo() << "Number Check:";
     qInfo() << "Input:  " << "Numbers: " << number1 << number2;
-    qInfo() << "Output: " << checker.checkNums(number1, number2);
+    qInfo().noquote() << "Output: " << checker.checkNums(number1, number2);
 
     number1 = 37;
     number2 = 25;
     qInfo() << "Input:  " << "Numbers: " << number1 << number2;
-    qInfo() << "Output: " << checker.checkNums(number1, number2);
+    qInfo().noquote() << "Output: " << checker.checkNums(number1, number2);
 
     number1 = 25;
     number2 = 25;
     qInfo() << "Input:  " << "Numbers: " << number1 << number2;
-    qInfo() << "Output: " << checker.checkNums(number1, number2);
+    qInfo().noquote() << "Output: " << checker.checkNums(number1, number2);
     qInfo() << " ";
 
 }
+
+void TestChallenges::Test_Fibonacci()
+{
+    MathFibonacci  checker;
+
+    int num = 23;
+
+    qInfo() << "Fibonacci Checker:";
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << checker.FibonacciChecker(num);
+
+    num = 34;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << checker.FibonacciChecker(num);
+
+    num = 25;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << checker.FibonacciChecker(num);
+    qInfo() << " ";
+
+}
+
 
