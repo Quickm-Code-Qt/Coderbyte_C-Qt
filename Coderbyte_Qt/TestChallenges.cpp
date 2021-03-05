@@ -7,6 +7,7 @@
 #include "NumberCheck.h"
 #include "MathFibonacci.h"
 #include "StringIntersection.h"
+#include "MathFactorial.h"
 
 
 TestChallenges::TestChallenges(QObject *parent)
@@ -144,6 +145,26 @@ void TestChallenges::Test_FindIntersection()
     qInfo().noquote() << "Result: " << intersect.FindIntersection(list);
     qInfo() << " ";
 
+}
+
+void TestChallenges::Test_FirstFactorial()
+{
+    MathFactorial  factorial; 
+
+    int num = 23;
+
+    qInfo() << "First Factorial:";
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << factorial.FirstFactorial(num);
+
+    num = 6;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << factorial.FirstFactorial(num);
+
+    num = 8;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << factorial.FirstFactorial(num);
+    qInfo() << " ";
 }
 
 
