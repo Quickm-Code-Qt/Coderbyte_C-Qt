@@ -9,7 +9,7 @@ Fibonacci Checker   03/04/2021      MathFibonacci
 Find Intersection   03/04/2021      StringIntersection
 First Factorial	    03/04/2021      MathFactorial
 First Reverse       03/04/2021      StringReverse
-Letter Capitalize   03/04/2021		  StringLetterChanges
+Letter Capitalize   03/04/2021      StringLetterChanges
 Letter Changes      03/04/2021      StringLetterChanges
 Longest Word        03/04/2021      StringWords
 Moving Median                       MedianMovement
