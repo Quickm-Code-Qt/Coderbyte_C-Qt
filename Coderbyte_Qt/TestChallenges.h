@@ -19,6 +19,7 @@ public:
     void Test_StringReverse();
     void Test_LetterChanges();
     void Test_LetterCapitalize();
+    void Test_LongestWord();
 
     protected:
     void Test_PrintArray(int* arr, int length);

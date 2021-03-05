@@ -10,6 +10,7 @@
 #include "MathFactorial.h"
 #include "StringReverse.h"
 #include "StringLetterChanges.h"
+#include "StringWordLength.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -201,6 +202,19 @@ void TestChallenges::Test_LetterCapitalize()
     qInfo() << "Letter Changes:";
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << letterChanger.LetterCapitalize(text);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_LongestWord()
+{
+    StringWordLength  lengthFinder;;
+
+    QString text = "The fox wouldn't lazy in the forest.";
+
+    qInfo() << "Longest Word:";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << lengthFinder.LongestWord(text);
     qInfo() << " ";
 
 }

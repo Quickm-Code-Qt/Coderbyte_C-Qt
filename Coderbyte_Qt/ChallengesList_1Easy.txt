@@ -11,7 +11,7 @@ First Factorial	    03/04/2021      MathFactorial
 First Reverse	    03/04/2021      StringReverse
 Letter Capitalize   03/04/2021		StringLetterChanges
 Letter Changes      03/04/2021      StringLetterChanges
-Longest Word                        StringWords
+Longest Word        03/04/2021      StringWords
 Moving Median                       MedianMovement
 Other Products				        MathProduct
 Palindrome                          PalindromeChecker

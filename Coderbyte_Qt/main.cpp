@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
     tc.Test_StringReverse();
     tc.Test_LetterChanges();
     tc.Test_LetterCapitalize();
+    tc.Test_LongestWord();
 
     // Medium Challenges
 
