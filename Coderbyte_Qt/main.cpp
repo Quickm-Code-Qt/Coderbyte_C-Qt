@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     tc.Test_ArithGeo();
     tc.Test_NumberCheck();
     tc.Test_Fibonacci();
+    tc.Test_FindIntersection();
 
     // Medium Challenges
 

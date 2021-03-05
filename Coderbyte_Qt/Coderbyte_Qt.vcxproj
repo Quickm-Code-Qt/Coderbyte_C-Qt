@@ -90,6 +90,7 @@
     <ClCompile Include="MathFibonacci.cpp" />
     <ClCompile Include="MathSequence.cpp" />
     <ClCompile Include="NumberCheck.cpp" />
+    <ClCompile Include="StringIntersection.cpp" />
     <ClCompile Include="TestChallenges.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +105,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="StringIntersection.h" />
     <QtMoc Include="MathFibonacci.h" />
     <ClInclude Include="MathSequence.h" />
     <QtMoc Include="NumberCheck.h" />

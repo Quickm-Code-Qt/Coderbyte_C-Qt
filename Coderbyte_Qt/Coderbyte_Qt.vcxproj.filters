@@ -37,6 +37,9 @@
     <ClCompile Include="MathFibonacci.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringIntersection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -49,6 +52,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="MathFibonacci.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="StringIntersection.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

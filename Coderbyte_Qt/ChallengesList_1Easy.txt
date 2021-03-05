@@ -6,7 +6,7 @@ Alphabet Soup       03/04/2021      AlphabetSorter
 ArithGeo            03/04/2021      MathSequence
 Check Numbers       03/04/2021      NumberCheck
 Fibonacci Checker   03/04/2021      MathFibonacci
-Find Intersection                   StringIntersection
+Find Intersection   03/04/2021      StringIntersection
 First Factorial				        Factorial
 First Reverse				        StringReverse
 Letter Capitalize			        ChangeLetter

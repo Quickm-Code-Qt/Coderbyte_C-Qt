@@ -6,6 +6,7 @@
 #include "MathSequence.h"
 #include "NumberCheck.h"
 #include "MathFibonacci.h"
+#include "StringIntersection.h"
 
 
 TestChallenges::TestChallenges(QObject *parent)
@@ -35,6 +36,26 @@ void TestChallenges::Test_PrintArray(int* arr, int length)
     str.chop(1);
     log << str << "]";
 }
+
+void TestChallenges::Test_PrintArray(QStringList strArr)
+{
+    QDebug log = qInfo().noquote();
+    log << "Array: " << "[";
+    QString str;
+
+    for (int index = 0; index < strArr.length(); index++)
+    //for (auto value : strArr)
+    {
+        auto value = strArr[index];
+        str += "[" + QString::number(index) + "]: ";
+        str += value;
+        str += ",";
+    }
+
+    str.chop(1);
+    log << str << "]";
+}
+
 
 
 void TestChallenges::Test_AlphabetSoup()
@@ -103,6 +124,24 @@ void TestChallenges::Test_Fibonacci()
     num = 25;
     qInfo() << "Input:  " << num;
     qInfo().noquote() << "Output: " << checker.FibonacciChecker(num);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_FindIntersection()
+{
+    StringIntersection   intersect;
+    QStringList          list;
+
+    QString     one = "3, 4, 7, 11, 21";
+    QString     two = "4, 6, 7, 13, 21";
+
+    list.append(one);
+    list.append(two);
+
+    qInfo() << "Find Intersection: ";
+    Test_PrintArray(list);
+    qInfo().noquote() << "Result: " << intersect.FindIntersection(list);
     qInfo() << " ";
 
 }
