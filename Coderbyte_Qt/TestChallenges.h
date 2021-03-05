@@ -16,6 +16,7 @@ public:
     void Test_Fibonacci();
     void Test_FindIntersection();
     void Test_FirstFactorial();
+    void Test_StringReverse();
 
     protected:
     void Test_PrintArray(int* arr, int length);

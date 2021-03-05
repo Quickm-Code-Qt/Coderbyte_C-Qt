@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
     tc.Test_Fibonacci();
     tc.Test_FindIntersection();
     tc.Test_FirstFactorial();
+    tc.Test_StringReverse();
 
     // Medium Challenges
 

@@ -8,7 +8,7 @@
 #include "MathFibonacci.h"
 #include "StringIntersection.h"
 #include "MathFactorial.h"
-
+#include "StringReverse.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -165,6 +165,18 @@ void TestChallenges::Test_FirstFactorial()
     qInfo() << "Input:  " << num;
     qInfo().noquote() << "Output: " << factorial.FirstFactorial(num);
     qInfo() << " ";
+}
+
+void TestChallenges::Test_StringReverse()
+{
+    StringReverse reverse;
+    QString text = "Hello World and Coders";
+
+    qInfo() << "First Reverse:";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << reverse.FirstReverse(text);
+    qInfo() << " ";
+
 }
 
 
