@@ -25,9 +25,15 @@
     <ClCompile Include="TestChallenges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AlphabetSorter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="AlphabetSorter.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
