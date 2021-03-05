@@ -2,8 +2,8 @@ The list of challenges were originally coded in C++11.  Challenge solution with
 dates have been coded in Qt and exist in this solution.
 
 Challenge:          Qt Date:        Class
-Alphabet Soup                       AlphabetSorter
-ArithGeo                            MathSequence
+Alphabet Soup       03/04/2021      AlphabetSorter
+ArithGeo            03/04/2021      MathSequence
 Check Numbers                       NumberCheck
 Fibonacci Checker                   MathFibonacci
 Find Intersection                   StringIntersection

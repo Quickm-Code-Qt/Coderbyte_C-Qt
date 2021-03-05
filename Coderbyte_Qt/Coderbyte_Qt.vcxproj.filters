@@ -28,6 +28,9 @@
     <ClCompile Include="AlphabetSorter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MathSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -41,5 +44,10 @@
     <Text Include="ChallengesList_1Easy.txt" />
     <Text Include="ChallengesList_2Medium.txt" />
     <Text Include="ChallengesList_3Hard.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MathSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

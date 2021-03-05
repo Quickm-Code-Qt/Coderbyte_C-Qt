@@ -11,5 +11,9 @@ public:
     ~TestChallenges();
 
     void Test_AlphabetSoup();
+    void Test_ArithGeo();
+
+    protected:
+    void Test_PrintArray(int* arr, int length);
 };
  

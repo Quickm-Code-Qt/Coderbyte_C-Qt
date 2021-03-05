@@ -87,6 +87,7 @@
   <ItemGroup>
     <ClCompile Include="AlphabetSorter.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathSequence.cpp" />
     <ClCompile Include="TestChallenges.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="AlphabetSorter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MathSequence.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
