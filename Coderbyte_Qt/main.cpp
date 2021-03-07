@@ -21,6 +21,8 @@ int main(int argc, char *argv[])
     tc.Test_LongestWord();
     tc.Test_Palindrome();
     tc.Test_PowersOfTwo();
+    tc.Test_ProductDigits();
+    tc.Test_OtherProducts();
 
     // Medium Challenges
 

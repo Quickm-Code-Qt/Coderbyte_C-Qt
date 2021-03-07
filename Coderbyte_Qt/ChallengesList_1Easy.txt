@@ -13,10 +13,10 @@ Letter Capitalize   03/04/2021      StringLetterChanges
 Letter Changes      03/04/2021      StringLetterChanges
 Longest Word        03/04/2021      StringWords
 Moving Median                       MedianMovement
-Other Products                      MathProduct
+Other Products      03/06/2021      MathProduct
 Palindrome          03/06/2021      StringPalindrome
 Power of 2          03/06/2021      MathExponentTwo
-Product Digits                      MathProduct
+Product Digits      03/06/2021      MathProduct
 Question Marks                      QuestionMarkSum
 Remove Brackets                     StringBrackets
 Simple Adding                       MathSummation

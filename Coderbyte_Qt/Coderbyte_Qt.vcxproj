@@ -90,6 +90,7 @@
     <ClCompile Include="MathExponentTwo.cpp" />
     <ClCompile Include="MathFactorial.cpp" />
     <ClCompile Include="MathFibonacci.cpp" />
+    <ClCompile Include="MathProduct.cpp" />
     <ClCompile Include="MathSequence.cpp" />
     <ClCompile Include="NumberCheck.cpp" />
     <ClCompile Include="StringIntersection.cpp" />
@@ -111,6 +112,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="MathProduct.h" />
     <QtMoc Include="MathExponentTwo.h" />
     <QtMoc Include="StringPalindrome.h" />
     <QtMoc Include="StringWordLength.h" />

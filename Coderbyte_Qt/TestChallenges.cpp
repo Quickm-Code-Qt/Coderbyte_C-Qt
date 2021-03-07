@@ -13,6 +13,7 @@
 #include "StringWordLength.h"
 #include "StringPalindrome.h"
 #include "MathExponentTwo.h"
+#include "MathProduct.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -254,6 +255,38 @@ void TestChallenges::Test_PowersOfTwo()
     qInfo() << "Input:  " << num;
     qInfo().noquote() << "Output: " << exp.powersofTwo(num);
     qInfo() << " ";
+}
+
+void TestChallenges::Test_ProductDigits()
+{
+    MathProduct   product;
+    int           num = 6;
+
+    qInfo() << "Product Digits:";
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << product.ProductDigits(num);
+
+    num = 23;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << product.ProductDigits(num);
+
+    num = 90;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << product.ProductDigits(num);
+    qInfo() << " ";
+}
+
+void TestChallenges::Test_OtherProducts()
+{
+    MathProduct		product;
+    int				arr[5] = {1,2,3,4,5};
+    int             length = 5;
+
+    qInfo() << "Other Products: ";
+    Test_PrintArray(arr, length);
+    qInfo().noquote() << "Result: " << product.OtherProducts(arr, length);
+    qInfo() << " ";
+
 
 }
 

@@ -58,6 +58,9 @@
     <ClCompile Include="MathExponentTwo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MathProduct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -91,6 +94,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="MathExponentTwo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MathProduct.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
