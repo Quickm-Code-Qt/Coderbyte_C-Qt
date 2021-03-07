@@ -19,6 +19,7 @@
 #include "MathSummation.h"
 #include "StringSymbols.h"
 #include "StringPeriods.h"
+#include "TimeConverter.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -374,6 +375,23 @@ void TestChallenges::Test_StringPeriods()
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << period.StringPeriods(text);
     qInfo() << " ";
+}
+
+void TestChallenges::Test_TimeConverter()
+{
+    TimeConverter   converter;
+    qInfo() << "Time Converter:";
+
+    int             num = 67;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << converter.TimeConvert(num);
+
+    num = 100;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << converter.TimeConvert(num);
+    qInfo() << " ";
+
+
 }
 
 

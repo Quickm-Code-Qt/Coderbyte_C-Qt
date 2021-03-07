@@ -29,6 +29,7 @@ public:
     void Test_SimpleAdding();
     void Test_SimpleSymbols();
     void Test_StringPeriods();
+    void Test_TimeConverter();
 
     protected:
     void Test_PrintArray(int* arr, int length);

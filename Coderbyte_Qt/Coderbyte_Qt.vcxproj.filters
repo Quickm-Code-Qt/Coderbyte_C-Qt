@@ -76,6 +76,9 @@
     <ClCompile Include="StringPeriods.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TimeConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -127,6 +130,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringPeriods.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="TimeConverter.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

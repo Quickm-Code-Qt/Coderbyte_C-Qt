@@ -104,6 +104,7 @@
     <ClCompile Include="StringSymbols.cpp" />
     <ClCompile Include="StringWordLength.cpp" />
     <ClCompile Include="TestChallenges.cpp" />
+    <ClCompile Include="TimeConverter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h" />
@@ -117,6 +118,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="TimeConverter.h" />
     <QtMoc Include="StringPeriods.h" />
     <QtMoc Include="StringSymbols.h" />
     <QtMoc Include="MathSummation.h" />
