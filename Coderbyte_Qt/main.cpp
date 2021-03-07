@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
     tc.Test_PowersOfTwo();
     tc.Test_ProductDigits();
     tc.Test_OtherProducts();
+    tc.Test_RemoveBrackets();
 
     // Medium Challenges
 

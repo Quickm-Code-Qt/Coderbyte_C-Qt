@@ -18,7 +18,7 @@ Palindrome          03/06/2021      StringPalindrome
 Power of 2          03/06/2021      MathExponentTwo
 Product Digits      03/06/2021      MathProduct
 Question Marks                      QuestionMarkSum
-Remove Brackets                     StringBrackets
+Remove Brackets     03/06/2021      StringBrackets
 Simple Adding                       MathSummation
 Simple Symbols                      StringSymbols
 String Periods                      StringPeriod

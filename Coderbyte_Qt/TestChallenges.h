@@ -24,6 +24,7 @@ public:
     void Test_PowersOfTwo();
     void Test_ProductDigits();
     void Test_OtherProducts();
+    void Test_RemoveBrackets();
 
     protected:
     void Test_PrintArray(int* arr, int length);

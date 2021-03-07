@@ -14,6 +14,7 @@
 #include "StringPalindrome.h"
 #include "MathExponentTwo.h"
 #include "MathProduct.h"
+#include "StringBrackets.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -288,6 +289,21 @@ void TestChallenges::Test_OtherProducts()
     qInfo() << " ";
 
 
+}
+
+void TestChallenges::Test_RemoveBrackets()
+{
+    StringBrackets    bracket;
+    qInfo() << "Remove Brackets:";
+
+    QString           text      = "(()))";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << bracket.RemoveBrackets(text);    
+    
+    text = ")(()";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << bracket.RemoveBrackets(text);
+    qInfo() << " ";
 }
 
 

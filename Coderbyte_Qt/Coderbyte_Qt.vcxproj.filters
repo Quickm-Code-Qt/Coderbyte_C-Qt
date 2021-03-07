@@ -61,6 +61,9 @@
     <ClCompile Include="MathProduct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringBrackets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -97,6 +100,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="MathProduct.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="StringBrackets.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

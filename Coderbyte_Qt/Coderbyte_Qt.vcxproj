@@ -93,6 +93,7 @@
     <ClCompile Include="MathProduct.cpp" />
     <ClCompile Include="MathSequence.cpp" />
     <ClCompile Include="NumberCheck.cpp" />
+    <ClCompile Include="StringBrackets.cpp" />
     <ClCompile Include="StringIntersection.cpp" />
     <ClCompile Include="StringLetterChanges.cpp" />
     <ClCompile Include="StringPalindrome.cpp" />
@@ -112,6 +113,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="StringBrackets.h" />
     <QtMoc Include="MathProduct.h" />
     <QtMoc Include="MathExponentTwo.h" />
     <QtMoc Include="StringPalindrome.h" />
