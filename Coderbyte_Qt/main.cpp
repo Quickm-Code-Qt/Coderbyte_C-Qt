@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
     tc.Test_OtherProducts();
     tc.Test_RemoveBrackets();
     tc.Test_QuestionMarks();
+    tc.Test_SimpleAdding();
 
     // Medium Challenges
 

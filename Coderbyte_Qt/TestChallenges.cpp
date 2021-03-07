@@ -16,6 +16,7 @@
 #include "MathProduct.h"
 #include "StringBrackets.h"
 #include "StringQuestionMarks.h"
+#include "MathSummation.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -320,6 +321,24 @@ void TestChallenges::Test_QuestionMarks()
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << questionMark.QuestionsMarks(text);
     qInfo() << " ";
+
+}
+
+void TestChallenges::Test_SimpleAdding()
+{
+    MathSummation   sum;
+    qInfo() << "Simple Adding:";
+
+    int             num = 6;
+
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << sum.SimpleAdding(num);
+
+    num = 23;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << sum.SimpleAdding(num);
+    qInfo() << " ";
+
 
 }
 

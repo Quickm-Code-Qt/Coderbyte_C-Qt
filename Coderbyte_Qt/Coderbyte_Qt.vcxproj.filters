@@ -67,6 +67,9 @@
     <ClCompile Include="StringQuestionMarks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MathSummation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -109,6 +112,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringQuestionMarks.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MathSummation.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

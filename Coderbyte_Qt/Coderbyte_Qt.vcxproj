@@ -92,6 +92,7 @@
     <ClCompile Include="MathFibonacci.cpp" />
     <ClCompile Include="MathProduct.cpp" />
     <ClCompile Include="MathSequence.cpp" />
+    <ClCompile Include="MathSummation.cpp" />
     <ClCompile Include="NumberCheck.cpp" />
     <ClCompile Include="StringBrackets.cpp" />
     <ClCompile Include="StringIntersection.cpp" />
@@ -114,6 +115,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="MathSummation.h" />
     <QtMoc Include="StringQuestionMarks.h" />
     <QtMoc Include="StringBrackets.h" />
     <QtMoc Include="MathProduct.h" />
