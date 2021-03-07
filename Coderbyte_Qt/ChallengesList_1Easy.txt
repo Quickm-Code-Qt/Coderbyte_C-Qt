@@ -14,7 +14,7 @@ Letter Changes      03/04/2021      StringLetterChanges
 Longest Word        03/04/2021      StringWords
 Moving Median                       MedianMovement
 Other Products                      MathProduct
-Palindrome                          PalindromeChecker
+Palindrome          03/06/2021      StringPalindrome
 Power of 2                          ExponentTwo
 Product Digits                      MathProduct
 Question Marks                      QuestionMarkSum

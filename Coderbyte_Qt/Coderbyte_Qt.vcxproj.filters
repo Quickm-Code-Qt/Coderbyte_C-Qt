@@ -52,6 +52,9 @@
     <ClCompile Include="StringWordLength.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringPalindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -79,6 +82,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringWordLength.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="StringPalindrome.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

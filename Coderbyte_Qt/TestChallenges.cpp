@@ -11,6 +11,7 @@
 #include "StringReverse.h"
 #include "StringLetterChanges.h"
 #include "StringWordLength.h"
+#include "StringPalindrome.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -217,6 +218,21 @@ void TestChallenges::Test_LongestWord()
     qInfo().noquote() << "Output: " << lengthFinder.LongestWord(text);
     qInfo() << " ";
 
+}
+
+void TestChallenges::Test_Palindrome()
+{
+    StringPalindrome    palin;
+    QString             text = "race car";
+
+    qInfo() << "Palindrome:";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << palin.Palindrome(text);
+
+    text = "r a s ecar";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << palin.Palindrome(text);
+    qInfo() << " ";
 }
 
 
