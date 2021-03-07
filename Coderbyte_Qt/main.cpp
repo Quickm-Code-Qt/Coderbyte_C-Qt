@@ -27,6 +27,7 @@ int main(int argc, char *argv[])
     tc.Test_QuestionMarks();
     tc.Test_SimpleAdding();
     tc.Test_SimpleSymbols();
+    tc.Test_StringPeriods();
 
     // Medium Challenges
 

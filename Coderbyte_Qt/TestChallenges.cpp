@@ -18,6 +18,7 @@
 #include "StringQuestionMarks.h"
 #include "MathSummation.h"
 #include "StringSymbols.h"
+#include "StringPeriods.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -358,6 +359,21 @@ void TestChallenges::Test_SimpleSymbols()
     qInfo() << " ";
 
 
+}
+
+void TestChallenges::Test_StringPeriods()
+{   
+    StringPeriod    period;
+    qInfo() << "String Periods:";
+
+    QString           text = "abababababab";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << period.StringPeriods(text);
+
+    text = "abcababcababcab";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << period.StringPeriods(text);
+    qInfo() << " ";
 }
 
 

@@ -28,6 +28,7 @@ public:
     void Test_QuestionMarks();
     void Test_SimpleAdding();
     void Test_SimpleSymbols();
+    void Test_StringPeriods();
 
     protected:
     void Test_PrintArray(int* arr, int length);
