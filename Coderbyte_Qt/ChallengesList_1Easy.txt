@@ -20,7 +20,7 @@ Product Digits      03/06/2021      MathProduct
 Question Marks      03/06/2021      StringQuestionMarks
 Remove Brackets     03/06/2021      StringBrackets
 Simple Adding       03/06/2021      MathSummation
-Simple Symbols                      StringSymbols
+Simple Symbols      03/07/2021      StringSymbols
 String Periods                      StringPeriod
 Time Convert                        TimeConverter
 Username Validation                 UsernameValidation

@@ -100,6 +100,7 @@
     <ClCompile Include="StringPalindrome.cpp" />
     <ClCompile Include="StringQuestionMarks.cpp" />
     <ClCompile Include="StringReverse.cpp" />
+    <ClCompile Include="StringSymbols.cpp" />
     <ClCompile Include="StringWordLength.cpp" />
     <ClCompile Include="TestChallenges.cpp" />
   </ItemGroup>
@@ -115,6 +116,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="StringSymbols.h" />
     <QtMoc Include="MathSummation.h" />
     <QtMoc Include="StringQuestionMarks.h" />
     <QtMoc Include="StringBrackets.h" />

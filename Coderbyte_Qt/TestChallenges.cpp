@@ -17,6 +17,7 @@
 #include "StringBrackets.h"
 #include "StringQuestionMarks.h"
 #include "MathSummation.h"
+#include "StringSymbols.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -337,6 +338,23 @@ void TestChallenges::Test_SimpleAdding()
     num = 23;
     qInfo() << "Input:  " << num;
     qInfo().noquote() << "Output: " << sum.SimpleAdding(num);
+    qInfo() << " ";
+
+
+}
+
+void TestChallenges::Test_SimpleSymbols()
+{
+    StringSymbols   symbol;
+    qInfo() << "Simple Symbols:";
+
+    QString           text = "++d+===+c++==a";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << symbol.SimpleSymbols(text);
+
+    text = "++d+===+c++==";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << symbol.SimpleSymbols(text);
     qInfo() << " ";
 
 

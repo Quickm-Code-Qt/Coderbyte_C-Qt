@@ -27,6 +27,7 @@ public:
     void Test_RemoveBrackets();
     void Test_QuestionMarks();
     void Test_SimpleAdding();
+    void Test_SimpleSymbols();
 
     protected:
     void Test_PrintArray(int* arr, int length);
