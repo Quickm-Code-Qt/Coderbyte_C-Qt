@@ -97,6 +97,7 @@
     <ClCompile Include="StringIntersection.cpp" />
     <ClCompile Include="StringLetterChanges.cpp" />
     <ClCompile Include="StringPalindrome.cpp" />
+    <ClCompile Include="StringQuestionMarks.cpp" />
     <ClCompile Include="StringReverse.cpp" />
     <ClCompile Include="StringWordLength.cpp" />
     <ClCompile Include="TestChallenges.cpp" />
@@ -113,6 +114,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="StringQuestionMarks.h" />
     <QtMoc Include="StringBrackets.h" />
     <QtMoc Include="MathProduct.h" />
     <QtMoc Include="MathExponentTwo.h" />

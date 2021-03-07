@@ -15,6 +15,7 @@
 #include "MathExponentTwo.h"
 #include "MathProduct.h"
 #include "StringBrackets.h"
+#include "StringQuestionMarks.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -304,6 +305,22 @@ void TestChallenges::Test_RemoveBrackets()
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << bracket.RemoveBrackets(text);
     qInfo() << " ";
+}
+
+void TestChallenges::Test_QuestionMarks()
+{
+    StringQuestionMarks    questionMark;
+    qInfo() << "Question Marks:";
+
+    QString           text = "arrb6???4xxbl5???eee5";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << questionMark.QuestionsMarks(text);
+
+    text = "arrb6???4xxbl5??eee5";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << questionMark.QuestionsMarks(text);
+    qInfo() << " ";
+
 }
 
 

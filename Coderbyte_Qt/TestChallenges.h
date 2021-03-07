@@ -25,6 +25,7 @@ public:
     void Test_ProductDigits();
     void Test_OtherProducts();
     void Test_RemoveBrackets();
+    void Test_QuestionMarks();
 
     protected:
     void Test_PrintArray(int* arr, int length);

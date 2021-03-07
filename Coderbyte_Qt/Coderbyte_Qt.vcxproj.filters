@@ -64,6 +64,9 @@
     <ClCompile Include="StringBrackets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringQuestionMarks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -103,6 +106,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringBrackets.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="StringQuestionMarks.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
