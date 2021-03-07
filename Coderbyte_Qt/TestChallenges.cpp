@@ -12,6 +12,7 @@
 #include "StringLetterChanges.h"
 #include "StringWordLength.h"
 #include "StringPalindrome.h"
+#include "MathExponentTwo.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -233,6 +234,27 @@ void TestChallenges::Test_Palindrome()
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << palin.Palindrome(text);
     qInfo() << " ";
+}
+
+void TestChallenges::Test_PowersOfTwo()
+{
+    MathExponentTwo  exp;
+
+    int num = 23;
+
+    qInfo() << "Powers of Two:";
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << exp.powersofTwo(num);
+
+    num = 4;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << exp.powersofTwo(num);
+
+    num = 56;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << exp.powersofTwo(num);
+    qInfo() << " ";
+
 }
 
 

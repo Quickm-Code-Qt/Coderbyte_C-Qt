@@ -21,6 +21,7 @@ public:
     void Test_LetterCapitalize();
     void Test_LongestWord();
     void Test_Palindrome();
+    void Test_PowersOfTwo();
 
     protected:
     void Test_PrintArray(int* arr, int length);

@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
     tc.Test_LetterCapitalize();
     tc.Test_LongestWord();
     tc.Test_Palindrome();
+    tc.Test_PowersOfTwo();
 
     // Medium Challenges
 

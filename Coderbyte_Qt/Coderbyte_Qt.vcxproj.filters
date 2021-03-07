@@ -55,6 +55,9 @@
     <ClCompile Include="StringPalindrome.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MathExponentTwo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -85,6 +88,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringPalindrome.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MathExponentTwo.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
