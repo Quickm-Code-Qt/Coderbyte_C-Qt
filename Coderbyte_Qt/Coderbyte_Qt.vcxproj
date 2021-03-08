@@ -90,6 +90,7 @@
     <ClCompile Include="MathExponentTwo.cpp" />
     <ClCompile Include="MathFactorial.cpp" />
     <ClCompile Include="MathFibonacci.cpp" />
+    <ClCompile Include="MathMedianMovement.cpp" />
     <ClCompile Include="MathProduct.cpp" />
     <ClCompile Include="MathSequence.cpp" />
     <ClCompile Include="MathSummation.cpp" />
@@ -137,6 +138,7 @@
     <QtMoc Include="MathFactorial.h" />
     <QtMoc Include="StringIntersection.h" />
     <QtMoc Include="MathFibonacci.h" />
+    <QtMoc Include="MathMedianMovement.h" />
     <ClInclude Include="MathSequence.h" />
     <QtMoc Include="NumberCheck.h" />
   </ItemGroup>

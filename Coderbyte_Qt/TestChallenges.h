@@ -32,6 +32,7 @@ public:
     void Test_TimeConverter();
     void Test_VowelSquares();
     void Test_UsernameValidation();
+    void Test_MovingMedian();
 
     protected:
     void Test_PrintArray(int* arr, int length);

@@ -22,6 +22,7 @@
 #include "TimeConverter.h"
 #include "SquareVowels.h"
 #include "UsernameValidation.h"
+#include "MathMedianMovement.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -424,6 +425,20 @@ void TestChallenges::Test_UsernameValidation()
     qInfo() << " ";
 
 
+
+}
+
+void TestChallenges::Test_MovingMedian()
+{
+    MathMedianMovement  median;
+    qInfo() << "Moving Median:";
+
+    int				arr[9] = {3, 1, 3, 5, 10, 6, 4, 3, 1};
+    int             length = 9;
+
+    Test_PrintArray(arr, length);
+    qInfo().noquote() << "Result: " << median.MovingMedian(arr, length);
+    qInfo() << " ";
 
 }
 

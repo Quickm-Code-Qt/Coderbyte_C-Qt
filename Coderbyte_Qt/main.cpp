@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
     tc.Test_TimeConverter();
     tc.Test_VowelSquares();
     tc.Test_UsernameValidation();
-
+    tc.Test_MovingMedian();
 
     // Medium Challenges
 

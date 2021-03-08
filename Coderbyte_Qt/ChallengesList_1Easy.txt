@@ -12,7 +12,7 @@ First Reverse       03/04/2021      StringReverse
 Letter Capitalize   03/04/2021      StringLetterChanges
 Letter Changes      03/04/2021      StringLetterChanges
 Longest Word        03/04/2021      StringWords
-Moving Median                       MedianMovement
+Moving Median       03/07/2021      MathMedianMovement
 Other Products      03/06/2021      MathProduct
 Palindrome          03/06/2021      StringPalindrome
 Power of 2          03/06/2021      MathExponentTwo
