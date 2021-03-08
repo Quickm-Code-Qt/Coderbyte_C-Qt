@@ -79,6 +79,9 @@
     <ClCompile Include="TimeConverter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SquareVowels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -133,6 +136,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="TimeConverter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SquareVowels.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

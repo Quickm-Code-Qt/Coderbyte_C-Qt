@@ -94,6 +94,7 @@
     <ClCompile Include="MathSequence.cpp" />
     <ClCompile Include="MathSummation.cpp" />
     <ClCompile Include="NumberCheck.cpp" />
+    <ClCompile Include="SquareVowels.cpp" />
     <ClCompile Include="StringBrackets.cpp" />
     <ClCompile Include="StringIntersection.cpp" />
     <ClCompile Include="StringLetterChanges.cpp" />
@@ -118,6 +119,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="SquareVowels.h" />
     <QtMoc Include="TimeConverter.h" />
     <QtMoc Include="StringPeriods.h" />
     <QtMoc Include="StringSymbols.h" />

@@ -20,6 +20,7 @@
 #include "StringSymbols.h"
 #include "StringPeriods.h"
 #include "TimeConverter.h"
+#include "SquareVowels.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -391,6 +392,20 @@ void TestChallenges::Test_TimeConverter()
     qInfo().noquote() << "Output: " << converter.TimeConvert(num);
     qInfo() << " ";
 
+
+}
+
+void TestChallenges::Test_VowelSquares()
+{
+    SquareVowels   vowels;
+    qInfo() << "Vowel Square:";
+
+    //"abcd", "eikr", "oufj"
+    QStringList    rows = {"abcd", "eikr", "oufj"};
+
+    Test_PrintArray(rows);
+    qInfo().noquote() << "Result: " << vowels.VowelSquare(rows, rows.length());
+    qInfo() << " ";
 
 }
 

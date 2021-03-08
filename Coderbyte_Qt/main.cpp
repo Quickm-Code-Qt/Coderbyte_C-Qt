@@ -29,6 +29,7 @@ int main(int argc, char *argv[])
     tc.Test_SimpleSymbols();
     tc.Test_StringPeriods();
     tc.Test_TimeConverter();
+    tc.Test_VowelSquares();
 
 
     // Medium Challenges

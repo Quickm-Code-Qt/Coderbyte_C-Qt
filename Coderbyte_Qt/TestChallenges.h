@@ -30,6 +30,7 @@ public:
     void Test_SimpleSymbols();
     void Test_StringPeriods();
     void Test_TimeConverter();
+    void Test_VowelSquares();
 
     protected:
     void Test_PrintArray(int* arr, int length);

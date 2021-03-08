@@ -24,4 +24,4 @@ Simple Symbols      03/07/2021      StringSymbols
 String Periods      03/07/2021      StringPeriods
 Time Convert        03/07/2021      TimeConverter
 Username Validation                 UsernameValidation
-Vowel Square                        SquareVowels 
+Vowel Square        03/07/2021      SquareVowels 
