@@ -23,5 +23,5 @@ Simple Adding       03/06/2021      MathSummation
 Simple Symbols      03/07/2021      StringSymbols
 String Periods      03/07/2021      StringPeriods
 Time Convert        03/07/2021      TimeConverter
-Username Validation                 UsernameValidation
+Username Validation 03/07/2021      UsernameValidation
 Vowel Square        03/07/2021      SquareVowels 

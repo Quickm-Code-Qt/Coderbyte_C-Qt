@@ -30,6 +30,7 @@ int main(int argc, char *argv[])
     tc.Test_StringPeriods();
     tc.Test_TimeConverter();
     tc.Test_VowelSquares();
+    tc.Test_UsernameValidation();
 
 
     // Medium Challenges

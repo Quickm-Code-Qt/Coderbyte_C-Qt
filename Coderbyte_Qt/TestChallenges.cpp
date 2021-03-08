@@ -21,6 +21,7 @@
 #include "StringPeriods.h"
 #include "TimeConverter.h"
 #include "SquareVowels.h"
+#include "UsernameValidation.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -400,12 +401,29 @@ void TestChallenges::Test_VowelSquares()
     SquareVowels   vowels;
     qInfo() << "Vowel Square:";
 
-    //"abcd", "eikr", "oufj"
     QStringList    rows = {"abcd", "eikr", "oufj"};
 
     Test_PrintArray(rows);
     qInfo().noquote() << "Result: " << vowels.VowelSquare(rows, rows.length());
     qInfo() << " ";
+
+}
+
+void TestChallenges::Test_UsernameValidation()
+{
+    UsernameValidation validator;
+    qInfo() << "Username Validation:";
+
+    QString  username = "t9_fjrjkgljoirg8945jgg";
+    qInfo().noquote() << "Input:  " << username;
+    qInfo().noquote() << "Output: " << validator.CodelandUsernameValidation(username);
+
+    username = "t9_fjrjkgljoirg8945jgg_";
+    qInfo().noquote() << "Input:  " << username;
+    qInfo().noquote() << "Output: " << validator.CodelandUsernameValidation(username);
+    qInfo() << " ";
+
+
 
 }
 

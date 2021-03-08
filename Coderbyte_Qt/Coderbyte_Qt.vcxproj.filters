@@ -82,6 +82,9 @@
     <ClCompile Include="SquareVowels.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UsernameValidation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -139,6 +142,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="SquareVowels.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UsernameValidation.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

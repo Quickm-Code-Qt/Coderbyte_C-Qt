@@ -106,6 +106,7 @@
     <ClCompile Include="StringWordLength.cpp" />
     <ClCompile Include="TestChallenges.cpp" />
     <ClCompile Include="TimeConverter.cpp" />
+    <ClCompile Include="UsernameValidation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h" />
@@ -119,6 +120,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="UsernameValidation.h" />
     <QtMoc Include="SquareVowels.h" />
     <QtMoc Include="TimeConverter.h" />
     <QtMoc Include="StringPeriods.h" />
