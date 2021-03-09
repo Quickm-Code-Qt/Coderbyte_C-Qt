@@ -10,6 +10,7 @@ public:
     TestChallenges(QObject *parent = nullptr);
     ~TestChallenges();
 
+    // Easy Challenges
     void Test_AlphabetSoup();
     void Test_ArithGeo();
     void Test_NumberCheck();
@@ -33,6 +34,11 @@ public:
     void Test_VowelSquares();
     void Test_UsernameValidation();
     void Test_MovingMedian();
+
+    // Medium Challenges
+    void Test_ConsecutiveNumbers();
+
+    // Hard Challenges
 
     protected:
     void Test_PrintArray(int* arr, int length);

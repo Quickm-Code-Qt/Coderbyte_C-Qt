@@ -88,6 +88,9 @@
     <ClCompile Include="MathMedianMovement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MathConsecutiveNumbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -151,6 +154,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="MathMedianMovement.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MathConsecutiveNumbers.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

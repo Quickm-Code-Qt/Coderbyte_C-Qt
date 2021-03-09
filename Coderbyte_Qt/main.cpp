@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     tc.Test_MovingMedian();
 
     // Medium Challenges
-
+    tc.Test_ConsecutiveNumbers();
 
     // Hard Challenges
 

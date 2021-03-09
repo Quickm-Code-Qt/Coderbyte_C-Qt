@@ -2,7 +2,7 @@ The list of challenges were originally coded in C++.  Challenge solution with
 dates have been coded in Qt and exist in this solution.
 
 Challenge:                  Qt Date:        Class:
-Consecutive                                 ConsecutiveNumbers
+Consecutive                 03/08/2021      ConsecutiveNumbers
 K Unique Chars                              StringUniqueSubstring
 Number Encoding                             NumberEncoder
 Preorder Traversal                          TreeGraphs

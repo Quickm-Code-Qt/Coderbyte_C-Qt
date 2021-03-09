@@ -2,6 +2,7 @@
 #include <QDebug>
 #include <vector>
 
+// Easy Challenges
 #include "AlphabetSorter.h"
 #include "MathSequence.h"
 #include "NumberCheck.h"
@@ -23,6 +24,9 @@
 #include "SquareVowels.h"
 #include "UsernameValidation.h"
 #include "MathMedianMovement.h"
+
+// Medium Challenges
+#include "MathConsecutiveNumbers.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -440,6 +444,26 @@ void TestChallenges::Test_MovingMedian()
     qInfo().noquote() << "Result: " << median.MovingMedian(arr, length);
     qInfo() << " ";
 
+}
+
+void TestChallenges::Test_ConsecutiveNumbers()
+{
+    MathConsecutiveNumbers      consecutive;
+    qInfo() << "Consecutive Numbers:";
+
+    int				arr[] = {4, 8, 6};
+    int             length = 3;
+
+    Test_PrintArray(arr, length);
+    qInfo().noquote() << "Result: " << consecutive.Consecutive(arr, length);
+    qInfo() << " ";
+
+    int				arr2[] = {4, 8, 6, 9, 11};
+                    length = 5;
+
+    Test_PrintArray(arr2, length);
+    qInfo().noquote() << "Result: " << consecutive.Consecutive(arr2, length);
+    qInfo() << " ";
 }
 
 

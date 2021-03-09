@@ -87,6 +87,7 @@
   <ItemGroup>
     <ClCompile Include="AlphabetSorter.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathConsecutiveNumbers.cpp" />
     <ClCompile Include="MathExponentTwo.cpp" />
     <ClCompile Include="MathFactorial.cpp" />
     <ClCompile Include="MathFibonacci.cpp" />
@@ -139,6 +140,7 @@
     <QtMoc Include="StringIntersection.h" />
     <QtMoc Include="MathFibonacci.h" />
     <QtMoc Include="MathMedianMovement.h" />
+    <QtMoc Include="MathConsecutiveNumbers.h" />
     <ClInclude Include="MathSequence.h" />
     <QtMoc Include="NumberCheck.h" />
   </ItemGroup>
