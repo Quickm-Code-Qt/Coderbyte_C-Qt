@@ -91,6 +91,9 @@
     <ClCompile Include="MathConsecutiveNumbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringUniqueSubstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -157,6 +160,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="MathConsecutiveNumbers.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="StringUniqueSubstring.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

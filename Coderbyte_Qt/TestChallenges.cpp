@@ -27,6 +27,7 @@
 
 // Medium Challenges
 #include "MathConsecutiveNumbers.h"
+#include "StringUniqueSubstring.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -464,6 +465,22 @@ void TestChallenges::Test_ConsecutiveNumbers()
     Test_PrintArray(arr2, length);
     qInfo().noquote() << "Result: " << consecutive.Consecutive(arr2, length);
     qInfo() << " ";
+}
+
+void TestChallenges::Test_KUniqueCharacters()
+{
+    StringUniqueSubstring unique;
+    qInfo() << "K Unique Characters:";
+
+    QString  text = "2aabbacbaa";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << unique.KUniqueCharacters(text);
+
+    text = "zaabbacbaa";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << unique.KUniqueCharacters(text);
+    qInfo() << " ";
+
 }
 
 

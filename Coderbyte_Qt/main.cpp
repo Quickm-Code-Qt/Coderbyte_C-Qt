@@ -35,6 +35,7 @@ int main(int argc, char *argv[])
 
     // Medium Challenges
     tc.Test_ConsecutiveNumbers();
+    tc.Test_KUniqueCharacters();
 
     // Hard Challenges
 

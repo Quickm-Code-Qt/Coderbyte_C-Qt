@@ -105,6 +105,7 @@
     <ClCompile Include="StringQuestionMarks.cpp" />
     <ClCompile Include="StringReverse.cpp" />
     <ClCompile Include="StringSymbols.cpp" />
+    <ClCompile Include="StringUniqueSubstring.cpp" />
     <ClCompile Include="StringWordLength.cpp" />
     <ClCompile Include="TestChallenges.cpp" />
     <ClCompile Include="TimeConverter.cpp" />
@@ -122,6 +123,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="StringUniqueSubstring.h" />
     <QtMoc Include="UsernameValidation.h" />
     <QtMoc Include="SquareVowels.h" />
     <QtMoc Include="TimeConverter.h" />
