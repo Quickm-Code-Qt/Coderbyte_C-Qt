@@ -38,6 +38,7 @@ public:
     // Medium Challenges
     void Test_ConsecutiveNumbers();
     void Test_KUniqueCharacters();
+    void Test_NumberEncoder();
 
     // Hard Challenges
 

@@ -94,6 +94,9 @@
     <ClCompile Include="StringUniqueSubstring.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringNumberEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -163,6 +166,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringUniqueSubstring.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="StringNumberEncoder.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

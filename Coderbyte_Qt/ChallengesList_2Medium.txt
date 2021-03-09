@@ -4,7 +4,7 @@ dates have been coded in Qt and exist in this solution.
 Challenge:                  Qt Date:        Class:
 Consecutive                 03/08/2021      ConsecutiveNumbers
 K Unique Chars              03/08/2021      StringUniqueSubstring
-Number Encoding                             NumberEncoder
+Number Encoding             03/08/2021      NumberEncoder
 Preorder Traversal                          TreeGraphs
 Prime Mover                                 PrimeNumber
 Run Length                                  StringCompression

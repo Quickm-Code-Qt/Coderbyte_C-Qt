@@ -28,6 +28,7 @@
 // Medium Challenges
 #include "MathConsecutiveNumbers.h"
 #include "StringUniqueSubstring.h"
+#include "StringNumberEncoder.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -479,6 +480,22 @@ void TestChallenges::Test_KUniqueCharacters()
     text = "zaabbacbaa";
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << unique.KUniqueCharacters(text);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_NumberEncoder()
+{
+    StringNumberEncoder encoder;
+    qInfo() << "Number Encoder:";
+
+    QString  text = "af5c a#!";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << encoder.NumberEncoding(text);
+
+    text = "af5c a#!p";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << encoder.NumberEncoding(text);
     qInfo() << " ";
 
 }
