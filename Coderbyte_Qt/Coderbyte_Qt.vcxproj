@@ -99,6 +99,7 @@
     <ClCompile Include="NumberCheck.cpp" />
     <ClCompile Include="SquareVowels.cpp" />
     <ClCompile Include="StringBrackets.cpp" />
+    <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="StringIntersection.cpp" />
     <ClCompile Include="StringLetterChanges.cpp" />
     <ClCompile Include="StringNumberEncoder.cpp" />
@@ -125,6 +126,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="StringCompression.h" />
     <QtMoc Include="StringNumberEncoder.h" />
     <QtMoc Include="StringUniqueSubstring.h" />
     <QtMoc Include="UsernameValidation.h" />

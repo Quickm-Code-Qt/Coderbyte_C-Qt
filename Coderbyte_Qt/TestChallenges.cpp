@@ -30,6 +30,7 @@
 #include "StringUniqueSubstring.h"
 #include "StringNumberEncoder.h"
 #include "MathPrimeNumber.h"
+#include "StringCompression.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -512,6 +513,22 @@ void TestChallenges::Test_PrimeMover()
                     num = 5;
     qInfo() << "Input:  " << num;
     qInfo().noquote() << "Output: " << primer.PrimeMover(num);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_RunLength()
+{
+    StringCompression   compress;
+    qInfo() << "Run Length:";
+
+    QString  text = "wwwggggoppppppppppu";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << compress.RunLength(text);
+
+    text = "wwwggopp";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << compress.RunLength(text);
     qInfo() << " ";
 
 }

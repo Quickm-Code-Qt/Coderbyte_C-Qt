@@ -40,6 +40,7 @@ public:
     void Test_KUniqueCharacters();
     void Test_NumberEncoder();
     void Test_PrimeMover();
+    void Test_RunLength();
 
     // Hard Challenges
 

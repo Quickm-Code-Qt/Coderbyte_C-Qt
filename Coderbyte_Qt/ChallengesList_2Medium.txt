@@ -7,7 +7,7 @@ K Unique Chars              03/08/2021      StringUniqueSubstring
 Number Encoding             03/08/2021      NumberEncoder
 Preorder Traversal                          TreeGraphs
 Prime Mover                 03/09/2021      PrimeNumber
-Run Length                                  StringCompression
+Run Length                  03/09/2021      StringCompression
 String Reduction                            StringReducer
 Symmetric Tree                              TreeGraphs
 Tree Constructor                            TreeGraphs
