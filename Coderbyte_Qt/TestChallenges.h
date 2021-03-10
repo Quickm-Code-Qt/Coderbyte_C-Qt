@@ -41,6 +41,7 @@ public:
     void Test_NumberEncoder();
     void Test_PrimeMover();
     void Test_RunLength();
+    void Test_StringReduction();
 
     // Hard Challenges
 

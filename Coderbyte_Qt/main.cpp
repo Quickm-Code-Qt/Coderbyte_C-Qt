@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
     tc.Test_NumberEncoder();
     tc.Test_PrimeMover();
     tc.Test_RunLength();
+    tc.Test_StringReduction();
 
     // Hard Challenges
 

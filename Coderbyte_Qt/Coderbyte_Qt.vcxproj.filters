@@ -103,6 +103,9 @@
     <ClCompile Include="StringCompression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringReducer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -181,6 +184,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringCompression.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="StringReducer.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

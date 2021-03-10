@@ -106,6 +106,7 @@
     <ClCompile Include="StringPalindrome.cpp" />
     <ClCompile Include="StringPeriods.cpp" />
     <ClCompile Include="StringQuestionMarks.cpp" />
+    <ClCompile Include="StringReducer.cpp" />
     <ClCompile Include="StringReverse.cpp" />
     <ClCompile Include="StringSymbols.cpp" />
     <ClCompile Include="StringUniqueSubstring.cpp" />
@@ -126,6 +127,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="StringReducer.h" />
     <QtMoc Include="StringCompression.h" />
     <QtMoc Include="StringNumberEncoder.h" />
     <QtMoc Include="StringUniqueSubstring.h" />

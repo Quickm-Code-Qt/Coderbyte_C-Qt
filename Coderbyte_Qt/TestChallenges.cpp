@@ -31,6 +31,8 @@
 #include "StringNumberEncoder.h"
 #include "MathPrimeNumber.h"
 #include "StringCompression.h"
+#include "StringReducer.h"
+
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -529,6 +531,22 @@ void TestChallenges::Test_RunLength()
     text = "wwwggopp";
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << compress.RunLength(text);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_StringReduction()
+{
+    StringReducer   reducer;
+    qInfo() << "String Reducer :";
+
+    QString  text = "bcccaab";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << reducer.StringReduction(text);
+
+    text = "ac";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << reducer.StringReduction(text);
     qInfo() << " ";
 
 }
