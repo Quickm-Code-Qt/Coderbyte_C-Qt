@@ -29,6 +29,7 @@
 #include "MathConsecutiveNumbers.h"
 #include "StringUniqueSubstring.h"
 #include "StringNumberEncoder.h"
+#include "MathPrimeNumber.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -496,6 +497,21 @@ void TestChallenges::Test_NumberEncoder()
     text = "af5c a#!p";
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << encoder.NumberEncoding(text);
+    qInfo() << " ";
+}
+
+void TestChallenges::Test_PrimeMover()
+{
+    MathPrimeNumber  primer;
+    qInfo() << "Prime Mover:";
+
+    int             num = 16;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << primer.PrimeMover(num);
+
+                    num = 5;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << primer.PrimeMover(num);
     qInfo() << " ";
 
 }

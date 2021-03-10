@@ -97,6 +97,9 @@
     <ClCompile Include="StringNumberEncoder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MathPrimeNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -169,6 +172,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringNumberEncoder.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MathPrimeNumber.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

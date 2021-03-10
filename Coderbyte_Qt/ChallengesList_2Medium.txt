@@ -6,7 +6,7 @@ Consecutive                 03/08/2021      ConsecutiveNumbers
 K Unique Chars              03/08/2021      StringUniqueSubstring
 Number Encoding             03/08/2021      NumberEncoder
 Preorder Traversal                          TreeGraphs
-Prime Mover                                 PrimeNumber
+Prime Mover                 03/09/2021      PrimeNumber
 Run Length                                  StringCompression
 String Reduction                            StringReducer
 Symmetric Tree                              TreeGraphs

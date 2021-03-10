@@ -39,6 +39,7 @@ public:
     void Test_ConsecutiveNumbers();
     void Test_KUniqueCharacters();
     void Test_NumberEncoder();
+    void Test_PrimeMover();
 
     // Hard Challenges
 

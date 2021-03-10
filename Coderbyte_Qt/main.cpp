@@ -37,6 +37,7 @@ int main(int argc, char *argv[])
     tc.Test_ConsecutiveNumbers();
     tc.Test_KUniqueCharacters();
     tc.Test_NumberEncoder();
+    tc.Test_PrimeMover();
 
     // Hard Challenges
 
