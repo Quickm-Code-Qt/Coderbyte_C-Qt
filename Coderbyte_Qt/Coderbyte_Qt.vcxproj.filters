@@ -109,6 +109,9 @@
     <ClCompile Include="StringMinimumWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TreeGraphs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -193,6 +196,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StringMinimumWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="TreeGraphs.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

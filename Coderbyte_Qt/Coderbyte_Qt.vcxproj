@@ -114,6 +114,7 @@
     <ClCompile Include="StringWordLength.cpp" />
     <ClCompile Include="TestChallenges.cpp" />
     <ClCompile Include="TimeConverter.cpp" />
+    <ClCompile Include="TreeGraphs.cpp" />
     <ClCompile Include="UsernameValidation.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -128,6 +129,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="TreeGraphs.h" />
     <QtMoc Include="StringMinimumWindow.h" />
     <QtMoc Include="StringReducer.h" />
     <QtMoc Include="StringCompression.h" />

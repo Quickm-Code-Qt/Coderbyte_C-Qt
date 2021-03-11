@@ -43,6 +43,7 @@ public:
     void Test_RunLength();
     void Test_StringReduction();
     void Test_MinWindowSubstring();
+    void Test_TreeConstructor();
 
     // Hard Challenges
 

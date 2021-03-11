@@ -10,6 +10,6 @@ Prime Mover                 03/09/2021      PrimeNumber
 Run Length                  03/09/2021      StringCompression
 String Reduction            03/09/2021      StringReducer
 Symmetric Tree                              TreeGraphs
-Tree Constructor                            TreeGraphs
+Tree Constructor            03/10/2021      TreeGraphs
 Minimum Window Substring    03/10/2021      StringMinimumWindow
  

@@ -33,6 +33,7 @@
 #include "StringCompression.h"
 #include "StringReducer.h"
 #include "StringMinimumWindow.h"
+#include "TreeGraphs.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -577,6 +578,19 @@ void TestChallenges::Test_MinWindowSubstring()
 
     Test_PrintArray(list);
     qInfo().noquote() << "Output: " << min.MinWindowSubstring(list);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_TreeConstructor()
+{
+    TreeGraphs  tree;
+    qInfo() << "Tree Constructor :";
+
+    QStringList           list = {"(1,2)", "(2,4)", "(7,2)"};
+
+    Test_PrintArray(list);
+    qInfo().noquote() << "Output: " << tree.TreeConstructor(list);
     qInfo() << " ";
 
 }
