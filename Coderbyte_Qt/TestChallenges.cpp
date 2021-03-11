@@ -32,7 +32,7 @@
 #include "MathPrimeNumber.h"
 #include "StringCompression.h"
 #include "StringReducer.h"
-
+#include "StringMinimumWindow.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -547,6 +547,36 @@ void TestChallenges::Test_StringReduction()
     text = "ac";
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << reducer.StringReduction(text);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_MinWindowSubstring()
+{
+    StringMinimumWindow   min;
+    qInfo() << "String Reducer :";
+
+    QStringList           list;
+    QString               text      = "ahffaksfajeeubsne";
+    QString               pattern   = "jefaa";
+
+    list.append(text);
+    list.append(pattern);
+
+    Test_PrintArray(list);
+    qInfo().noquote() << "Output: " << min.MinWindowSubstring(list);
+
+    // {"aaffhkksemckelloe", "fhea"}
+    list.clear();
+
+    text = "aaffhkksemckelloe";
+    pattern = "fhea";
+
+    list.append(text);
+    list.append(pattern);
+
+    Test_PrintArray(list);
+    qInfo().noquote() << "Output: " << min.MinWindowSubstring(list);
     qInfo() << " ";
 
 }

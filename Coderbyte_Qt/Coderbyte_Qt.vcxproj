@@ -102,6 +102,7 @@
     <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="StringIntersection.cpp" />
     <ClCompile Include="StringLetterChanges.cpp" />
+    <ClCompile Include="StringMinimumWindow.cpp" />
     <ClCompile Include="StringNumberEncoder.cpp" />
     <ClCompile Include="StringPalindrome.cpp" />
     <ClCompile Include="StringPeriods.cpp" />
@@ -127,6 +128,7 @@
     <QtMoc Include="AlphabetSorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="StringMinimumWindow.h" />
     <QtMoc Include="StringReducer.h" />
     <QtMoc Include="StringCompression.h" />
     <QtMoc Include="StringNumberEncoder.h" />

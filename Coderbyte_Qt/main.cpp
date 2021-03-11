@@ -40,6 +40,7 @@ int main(int argc, char *argv[])
     tc.Test_PrimeMover();
     tc.Test_RunLength();
     tc.Test_StringReduction();
+    tc.Test_MinWindowSubstring();
 
     // Hard Challenges
 

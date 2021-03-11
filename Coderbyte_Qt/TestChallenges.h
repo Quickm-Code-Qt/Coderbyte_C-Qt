@@ -42,6 +42,7 @@ public:
     void Test_PrimeMover();
     void Test_RunLength();
     void Test_StringReduction();
+    void Test_MinWindowSubstring();
 
     // Hard Challenges
 
