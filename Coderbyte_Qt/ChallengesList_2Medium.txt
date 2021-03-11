@@ -11,5 +11,5 @@ Run Length                  03/09/2021      StringCompression
 String Reduction            03/09/2021      StringReducer
 Symmetric Tree                              TreeGraphs
 Tree Constructor                            TreeGraphs
-Minimum Window Substring                    StringMinimumWindow
+Minimum Window Substring    03/10/2021      StringMinimumWindow
  
