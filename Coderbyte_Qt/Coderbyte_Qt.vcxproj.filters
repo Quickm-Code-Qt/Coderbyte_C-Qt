@@ -112,6 +112,9 @@
     <ClCompile Include="TreeGraphs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Chessboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -199,6 +202,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="TreeGraphs.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Chessboard.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

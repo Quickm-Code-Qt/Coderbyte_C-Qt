@@ -47,6 +47,7 @@ public:
     void Test_PreorderTraversal();
 
     // Hard Challenges
+    void Test_ChessboardTraveling();
 
     protected:
     void Test_PrintArray(int* arr, int length);

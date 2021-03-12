@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
     tc.Test_PreorderTraversal();
 
     // Hard Challenges
-
+    tc.Test_ChessboardTraveling();
     return 0;
 }
  

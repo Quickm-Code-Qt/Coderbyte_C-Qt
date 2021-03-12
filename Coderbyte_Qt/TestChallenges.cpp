@@ -35,6 +35,9 @@
 #include "StringMinimumWindow.h"
 #include "TreeGraphs.h"
 
+// Hard Challenges
+#include "Chessboard.h"
+
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
 {
@@ -604,6 +607,22 @@ void TestChallenges::Test_PreorderTraversal()
 
     Test_PrintArray(list);
     qInfo().noquote() << "Output: " << tree.PreorderTraversal(list);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_ChessboardTraveling()
+{
+    Chessboard      board;
+    qInfo() << "Chessboard Traveling :";
+
+    QString  text = "(1 1)(2 2)";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << board.ChessboardTraveling(text);
+
+    text = "(1 1)(4 5)";
+    qInfo().noquote() << "Input:  " << text;
+    qInfo().noquote() << "Output: " << board.ChessboardTraveling(text);
     qInfo() << " ";
 
 }

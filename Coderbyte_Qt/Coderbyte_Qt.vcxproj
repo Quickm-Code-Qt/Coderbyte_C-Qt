@@ -86,6 +86,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AlphabetSorter.cpp" />
+    <ClCompile Include="Chessboard.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MathConsecutiveNumbers.cpp" />
     <ClCompile Include="MathExponentTwo.cpp" />
@@ -155,6 +156,7 @@
     <QtMoc Include="MathMedianMovement.h" />
     <QtMoc Include="MathConsecutiveNumbers.h" />
     <QtMoc Include="MathPrimeNumber.h" />
+    <QtMoc Include="Chessboard.h" />
     <ClInclude Include="MathSequence.h" />
     <QtMoc Include="NumberCheck.h" />
   </ItemGroup>
