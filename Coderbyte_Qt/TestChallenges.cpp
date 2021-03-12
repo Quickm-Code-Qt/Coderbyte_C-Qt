@@ -38,6 +38,7 @@
 // Hard Challenges
 #include "Chessboard.h"
 #include "MathKaprekar.h"
+#include "MathDeterminant.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -640,6 +641,25 @@ void TestChallenges::Test_KaprekarsConstant()
     num = 6174;
     qInfo() << "Input:  " << num;
     qInfo().noquote() << "Output: " << kaprekar.KaprekarsConstant(num);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_MatrixDeterminant()
+{
+    MathDeterminant  det;
+    qInfo() << "Matrix Determinant :";
+
+    QStringList           list = {"1", "2", "<>", "3", "4"};
+
+    Test_PrintArray(list);
+    qInfo().noquote() << "Output: " << det.MatrixDeterminant(list);
+    qInfo() << " ";
+
+    QStringList           list2 = {"1", "6", "5", "<>", "2", "3", "0", "<>", "2", "1", "3"};
+
+    Test_PrintArray(list2);
+    qInfo().noquote() << "Output: " << det.MatrixDeterminant(list2);
     qInfo() << " ";
 
 }

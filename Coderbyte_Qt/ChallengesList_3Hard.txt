@@ -4,4 +4,4 @@ dates have been coded in Qt and exist in this solution.
 Challenge:                  Qt Date:        Class:
 Chessboard Traveling        03/11/2021      Chessboard
 Kaprekars Constant          03/11/2021      Kaprekar
-Matrix Determinant					        Determinant 
+Matrix Determinant			03/11/2021      MathDeterminant 

@@ -118,6 +118,9 @@
     <ClCompile Include="MathKaprekar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MathDeterminant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TestChallenges.h">
@@ -211,6 +214,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="MathKaprekar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MathDeterminant.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
