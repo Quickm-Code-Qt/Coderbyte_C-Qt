@@ -42,6 +42,7 @@ int main(int argc, char *argv[])
     tc.Test_StringReduction();
     tc.Test_MinWindowSubstring();
     tc.Test_TreeConstructor();
+    tc.Test_PreorderTraversal();
 
     // Hard Challenges
 

@@ -5,7 +5,7 @@ Challenge:                  Qt Date:        Class:
 Consecutive                 03/08/2021      ConsecutiveNumbers
 K Unique Chars              03/08/2021      StringUniqueSubstring
 Number Encoding             03/08/2021      NumberEncoder
-Preorder Traversal                          TreeGraphs
+Preorder Traversal          03/11/2021      TreeGraphs
 Prime Mover                 03/09/2021      PrimeNumber
 Run Length                  03/09/2021      StringCompression
 String Reduction            03/09/2021      StringReducer

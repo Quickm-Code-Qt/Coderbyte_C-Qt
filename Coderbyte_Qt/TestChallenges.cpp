@@ -595,4 +595,17 @@ void TestChallenges::Test_TreeConstructor()
 
 }
 
+void TestChallenges::Test_PreorderTraversal()
+{
+    TreeGraphs  tree;
+    qInfo() << "Preorder Traversal :";
+
+    QStringList           list = {"5", "2", "6", "1", "9", "#", "8", "#", "#", "#", "#", "4", "#"};
+
+    Test_PrintArray(list);
+    qInfo().noquote() << "Output: " << tree.PreorderTraversal(list);
+    qInfo() << " ";
+
+}
+
 

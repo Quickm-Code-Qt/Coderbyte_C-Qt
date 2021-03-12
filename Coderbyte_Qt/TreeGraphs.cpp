@@ -88,6 +88,29 @@ QString TreeGraphs::TreeConstructor(QStringList strArr)
     return result;
 }
 
+// For this challenge you will be traversing a binary tree.
+// have the function PreorderTraversal(strArr) take the array of strings stored 
+// in strArr, which will represent a binary tree with integer values in a format 
+// similar to how a binary heap is implemented with NULL nodes at any level 
+// represented with a #. Your goal is to return the pre-order traversal of the 
+// tree with the elements separated by a space. 
+// For example: if strArr is ["5", "2", "6", "1", "9", "#", "8", "#", "#", "#", 
+// "#", "4", "#"]
+QString TreeGraphs::PreorderTraversal(QStringList strArr)
+{
+    QString					result;
+    QVector<QString>		input = strArr.toVector();
+    Node *					root = nullptr;
+
+    // create tree
+    root = CreateTreeNode(input[0]);
+    root = FillTree(input, root, 0, input.size());
+
+    result = CreatePreorderOutput(root);
+
+    return result;
+}
+
 QVector<QPair<int, int>> TreeGraphs::ParseInput(QVector<QString> input)
 {
     QVector<QPair<int, int>>	data;
@@ -129,4 +152,75 @@ void TreeGraphs::ParseInputString(QString str, int & num1, int & num2)
     temp = str.mid(pos + 1, 1);
     num2 = temp.toInt();
 
+}
+
+Node * TreeGraphs::FillTree(QVector<QString> arr, Node * root, int index, int length)
+{
+    // Base case for recursion 
+    if (index < length)
+    {
+        Node* temp = CreateTreeNode(arr[index]);
+        root = temp;
+
+        if (temp != nullptr)
+        {
+            int childIndex = 2 * index + 1;
+
+            if (childIndex == length)
+            {
+                childIndex -= 2;
+            }
+            // insert left child 
+            root->left = FillTree(arr, root->left, childIndex, length);
+
+            // insert right child 
+            root->right = FillTree(arr, root->right, childIndex + 1, length);
+        }
+
+    }
+
+    return root;
+}
+
+Node * TreeGraphs::CreateTreeNode(QString data)
+{
+    Node* node = nullptr;
+
+    if (data.compare("#") != 0)
+    {
+        node = new Node();
+
+        node->data = data;
+        node->left = nullptr;
+        node->right = nullptr;
+    }
+
+    return node;
+}
+
+
+QString TreeGraphs::CreatePreorderOutput(Node * node)
+{
+    QString			result;
+    //stringstream	ss;
+
+    if ((node != nullptr) && (node->data.compare("#") != 0))
+    {
+        /* first print data of node */
+        if (node->data.compare("#") != 0)
+        {
+            //ss << node->data << " ";
+            result = QString("%1 ").arg(node->data);
+        }
+
+        /* then recur on left sutree */
+        result += CreatePreorderOutput(node->left);
+
+        /* now recur on right subtree */
+        result += CreatePreorderOutput(node->right);
+
+        //result = ss.str();
+    }
+
+    return result;
 }

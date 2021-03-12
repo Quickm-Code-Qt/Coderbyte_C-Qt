@@ -44,6 +44,7 @@ public:
     void Test_StringReduction();
     void Test_MinWindowSubstring();
     void Test_TreeConstructor();
+    void Test_PreorderTraversal();
 
     // Hard Challenges
 
