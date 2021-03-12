@@ -92,6 +92,7 @@
     <ClCompile Include="MathExponentTwo.cpp" />
     <ClCompile Include="MathFactorial.cpp" />
     <ClCompile Include="MathFibonacci.cpp" />
+    <ClCompile Include="MathKaprekar.cpp" />
     <ClCompile Include="MathMedianMovement.cpp" />
     <ClCompile Include="MathPrimeNumber.cpp" />
     <ClCompile Include="MathProduct.cpp" />
@@ -157,6 +158,7 @@
     <QtMoc Include="MathConsecutiveNumbers.h" />
     <QtMoc Include="MathPrimeNumber.h" />
     <QtMoc Include="Chessboard.h" />
+    <QtMoc Include="MathKaprekar.h" />
     <ClInclude Include="MathSequence.h" />
     <QtMoc Include="NumberCheck.h" />
   </ItemGroup>

@@ -37,6 +37,7 @@
 
 // Hard Challenges
 #include "Chessboard.h"
+#include "MathKaprekar.h"
 
 TestChallenges::TestChallenges(QObject *parent)
     : QObject(parent)
@@ -623,6 +624,22 @@ void TestChallenges::Test_ChessboardTraveling()
     text = "(1 1)(4 5)";
     qInfo().noquote() << "Input:  " << text;
     qInfo().noquote() << "Output: " << board.ChessboardTraveling(text);
+    qInfo() << " ";
+
+}
+
+void TestChallenges::Test_KaprekarsConstant()
+{
+    MathKaprekar   kaprekar;
+    qInfo() << "Kaprekars Constant :";
+
+    int num = 4512;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << kaprekar.KaprekarsConstant(num);
+
+    num = 6174;
+    qInfo() << "Input:  " << num;
+    qInfo().noquote() << "Output: " << kaprekar.KaprekarsConstant(num);
     qInfo() << " ";
 
 }

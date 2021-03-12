@@ -48,6 +48,7 @@ public:
 
     // Hard Challenges
     void Test_ChessboardTraveling();
+    void Test_KaprekarsConstant();
 
     protected:
     void Test_PrintArray(int* arr, int length);

@@ -46,6 +46,7 @@ int main(int argc, char *argv[])
 
     // Hard Challenges
     tc.Test_ChessboardTraveling();
+    tc.Test_KaprekarsConstant();
     return 0;
 }
  
