@@ -181,17 +181,17 @@ void TestChallenges::Test_FirstFactorial()
 {
     MathFactorial  factorial; 
 
-    int num = 23;
+    int num = 5;
 
     qInfo() << "First Factorial:";
     qInfo() << "Input:  " << num;
     qInfo().noquote() << "Output: " << factorial.FirstFactorial(num);
 
-    num = 6;
+    num = 10;
     qInfo() << "Input:  " << num;
     qInfo().noquote() << "Output: " << factorial.FirstFactorial(num);
 
-    num = 8;
+    num = 18;
     qInfo() << "Input:  " << num;
     qInfo().noquote() << "Output: " << factorial.FirstFactorial(num);
     qInfo() << " ";

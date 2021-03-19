@@ -10,5 +10,5 @@ public:
     MathFactorial(QObject *parent = nullptr);
     ~MathFactorial();
 
-    int FirstFactorial(int num);
+    long long FirstFactorial(int num);
 };
